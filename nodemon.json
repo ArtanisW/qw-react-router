@@ -1,0 +1,8 @@
+{
+  "watch": [
+    "config",
+    "webpack.config.js"
+  ],
+  "exec": "cross-env NODE_ENV=dev webpack serve --open --config ./webpack.config.js --env CUSTOM_CONFIG=test",
+  "ext": "js"
+}

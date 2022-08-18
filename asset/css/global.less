@@ -1,0 +1,45 @@
+// 用于全局类名，不会执行CSS模块化
+// fix p tag in antd global.less
+p {
+  margin: 0;
+}
+.q-logo {
+  float: left;
+  width: 60px;
+  color: transparent;
+  font-size: 26px;
+  font-weight: 500;
+  background-image: linear-gradient(90deg, #00bed8, #7b68ee);
+  background-clip: text;
+  span {
+    font-size: 18px;
+  }
+}
+.site-layout-content {
+  .global-loading {
+    height: calc(100vh - 156px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
