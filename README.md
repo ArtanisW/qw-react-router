@@ -1,5 +1,7 @@
 # QingWheel/轻轮
 Lightweight React Scaffold/轻量级React脚手架  
+  
+![](./docs/image/Qw.jpg)
 ## 目标群体
 React初学者的入门示例  
 个人开发者的提效工具   
