@@ -2,9 +2,12 @@ const path = require('path');
 const mockMiddlewarePlugin = require('mock-middleware-plugin');
 const { initFiles } = require('mock-middleware-plugin/util');
 const bodyParser = require('body-parser');
+const Env = require('./env');
 
-let mockport = 8090;
-initFiles();
+const mockport = 8090;
+if (Env.isDev()) {
+  initFiles();
+}
 
 module.exports = {
   mode: 'development',
